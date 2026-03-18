@@ -1,0 +1,531 @@
+ticket_id,created_at,resolved_at,category,priority,status,department_code,channel,sentiment_score,escalated,subcategory
+TKT-00001,2024-01-01 13:24:00,,access_request,low,open,SALES,portal,-0.44,False,technical_sub
+TKT-00002,2024-01-01 13:47:00,2024-01-02 10:54:57,data_quality,low,resolved,SUPPORT,portal,0.57,False,data_quality_sub
+TKT-00003,2024-01-01 12:03:00,2024-01-01 15:08:18,access_request,high,closed,SUPPORT,phone,0.48,False,billing_sub
+TKT-00004,2024-01-01 17:37:00,2024-01-02 08:27:09,onboarding,medium,closed,OPS,phone,0.54,False,access_request_sub
+TKT-00005,2024-01-01 12:09:00,,technical,low,open,SUPPORT,phone,0.0,False,onboarding_sub
+TKT-00006,2024-01-01 17:30:00,2024-01-01 19:34:42,access_request,critical,closed,ENG,phone,-0.56,False,billing_sub
+TKT-00007,2024-01-01 08:59:00,,billing,high,open,SALES,chat,-0.32,False,billing_sub
+TKT-00008,2024-01-01 16:25:00,2024-01-01 20:48:22,access_request,critical,closed,SALES,email,0.04,False,billing_sub
+TKT-00009,2024-01-01 16:25:00,2024-01-01 20:58:27,onboarding,high,resolved,SALES,portal,0.12,False,access_request_sub
+TKT-00010,2024-01-01 10:13:00,2024-01-04 19:17:36,onboarding,low,resolved,ENG,portal,-0.2,False,billing_sub
+TKT-00011,2024-01-01 09:22:00,,billing,critical,open,ENG,email,0.77,False,data_quality_sub
+TKT-00012,2024-01-01 10:40:00,,billing,medium,open,ENG,email,-0.41,False,data_quality_sub
+TKT-00013,2024-01-01 18:47:00,2024-01-01 23:14:32,access_request,critical,resolved,SALES,phone,0.21,False,technical_sub
+TKT-00014,2024-01-01 09:07:00,2024-01-04 09:40:38,technical,low,resolved,SALES,phone,0.31,False,data_quality_sub
+TKT-00015,2024-01-01 15:41:00,,onboarding,low,open,OPS,email,-0.28,False,data_quality_sub
+TKT-00016,2024-01-01 08:25:00,2024-01-03 18:48:47,technical,low,closed,ENG,portal,0.75,False,billing_sub
+TKT-00017,2024-01-01 10:00:00,2024-01-01 19:48:20,technical,high,resolved,OPS,portal,0.24,False,onboarding_sub
+TKT-00018,2024-01-01 08:05:00,,data_quality,high,open,SUPPORT,phone,0.75,False,technical_sub
+TKT-00019,2024-01-01 08:33:00,,onboarding,low,open,SALES,portal,0.12,False,data_quality_sub
+TKT-00020,2024-01-01 13:38:00,2024-01-01 15:40:57,technical,critical,resolved,OPS,email,-0.5,False,billing_sub
+TKT-00021,2024-01-01 17:35:00,2024-01-01 20:22:43,data_quality,critical,resolved,SALES,email,0.08,False,billing_sub
+TKT-00022,2024-01-02 12:43:00,2024-01-03 14:01:28,technical,medium,resolved,SUPPORT,portal,0.34,False,data_quality_sub
+TKT-00023,2024-01-02 14:52:00,2024-01-04 02:36:08,access_request,medium,closed,ENG,portal,-0.68,False,technical_sub
+TKT-00024,2024-01-02 14:04:00,2024-01-02 18:10:50,onboarding,medium,closed,OPS,portal,-0.36,False,billing_sub
+TKT-00025,2024-01-02 09:50:00,,billing,medium,open,SUPPORT,chat,-0.65,False,data_quality_sub
+TKT-00026,2024-01-02 16:17:00,2024-01-03 03:08:44,onboarding,high,resolved,SALES,portal,-0.25,False,data_quality_sub
+TKT-00027,2024-01-02 14:30:00,2024-01-03 00:34:01,billing,medium,resolved,OPS,chat,0.11,False,onboarding_sub
+TKT-00028,2024-01-02 11:43:00,2024-01-02 20:29:28,access_request,high,resolved,SUPPORT,chat,0.0,False,access_request_sub
+TKT-00029,2024-01-02 11:19:00,2024-01-02 15:21:34,access_request,medium,closed,SUPPORT,email,0.22,False,billing_sub
+TKT-00030,2024-01-02 10:36:00,2024-01-02 15:19:01,technical,critical,closed,SALES,portal,-0.03,False,data_quality_sub
+TKT-00031,2024-01-02 14:00:00,2024-01-03 22:52:51,access_request,medium,resolved,SUPPORT,portal,0.79,False,data_quality_sub
+TKT-00032,2024-01-02 08:38:00,2024-01-02 15:31:55,billing,medium,resolved,ENG,phone,0.54,False,technical_sub
+TKT-00033,2024-01-02 14:10:00,2024-01-02 19:07:47,data_quality,medium,resolved,ENG,phone,-0.32,False,billing_sub
+TKT-00034,2024-01-02 18:36:00,2024-01-06 22:22:01,access_request,low,resolved,SALES,email,-0.23,False,onboarding_sub
+TKT-00035,2024-01-02 09:00:00,2024-01-05 15:18:01,onboarding,low,closed,ENG,email,-0.11,False,data_quality_sub
+TKT-00036,2024-01-02 10:26:00,2024-01-03 04:29:33,onboarding,medium,resolved,OPS,chat,-0.17,False,access_request_sub
+TKT-00037,2024-01-02 16:51:00,2024-01-03 04:43:59,billing,high,closed,OPS,phone,0.4,True,billing_sub
+TKT-00038,2024-01-02 12:02:00,2024-01-04 10:05:10,technical,low,closed,OPS,portal,0.72,False,onboarding_sub
+TKT-00039,2024-01-02 15:35:00,2024-01-05 17:31:44,onboarding,low,resolved,SALES,chat,-0.59,False,technical_sub
+TKT-00040,2024-01-03 16:00:00,,billing,low,open,ENG,phone,-0.11,False,technical_sub
+TKT-00041,2024-01-03 12:18:00,2024-01-04 15:55:53,data_quality,medium,resolved,OPS,portal,-0.4,False,onboarding_sub
+TKT-00042,2024-01-03 11:42:00,,billing,critical,open,SALES,email,0.32,False,billing_sub
+TKT-00043,2024-01-03 17:40:00,2024-01-04 19:12:38,access_request,low,resolved,ENG,phone,0.78,False,access_request_sub
+TKT-00044,2024-01-03 11:05:00,,access_request,low,open,SALES,phone,0.32,False,billing_sub
+TKT-00045,2024-01-03 15:03:00,2024-01-04 14:35:08,technical,medium,closed,SUPPORT,phone,-0.35,False,access_request_sub
+TKT-00046,2024-01-03 08:11:00,2024-01-03 14:45:40,billing,low,closed,SUPPORT,chat,-0.35,False,access_request_sub
+TKT-00047,2024-01-03 15:23:00,2024-01-04 04:19:00,data_quality,low,resolved,OPS,phone,-0.22,False,data_quality_sub
+TKT-00048,2024-01-03 13:15:00,2024-01-03 21:36:04,technical,medium,closed,ENG,portal,0.21,False,technical_sub
+TKT-00049,2024-01-03 18:52:00,2024-01-04 20:31:47,technical,medium,resolved,SUPPORT,phone,0.36,False,billing_sub
+TKT-00050,2024-01-03 10:02:00,2024-01-04 01:40:14,data_quality,medium,closed,SUPPORT,phone,-0.08,False,access_request_sub
+TKT-00051,2024-01-03 14:33:00,,data_quality,low,open,ENG,portal,0.16,False,billing_sub
+TKT-00052,2024-01-03 17:03:00,,billing,low,open,SALES,chat,0.3,False,technical_sub
+TKT-00053,2024-01-03 16:24:00,2024-01-05 11:09:23,billing,low,closed,OPS,email,-0.54,False,technical_sub
+TKT-00054,2024-01-04 16:45:00,,onboarding,medium,open,SUPPORT,portal,-0.33,False,technical_sub
+TKT-00055,2024-01-04 08:34:00,2024-01-04 13:44:57,onboarding,low,resolved,OPS,phone,0.6,False,billing_sub
+TKT-00056,2024-01-04 11:34:00,2024-01-04 15:48:35,onboarding,critical,closed,ENG,phone,0.36,False,data_quality_sub
+TKT-00057,2024-01-04 08:40:00,,onboarding,low,open,OPS,phone,-0.52,False,data_quality_sub
+TKT-00058,2024-01-04 17:06:00,,access_request,medium,open,SUPPORT,portal,0.51,False,onboarding_sub
+TKT-00059,2024-01-04 18:51:00,,access_request,low,open,OPS,chat,-0.43,False,onboarding_sub
+TKT-00060,2024-01-04 15:05:00,2024-01-06 17:14:17,billing,low,resolved,SALES,portal,0.24,True,billing_sub
+TKT-00061,2024-01-04 14:43:00,2024-01-04 16:28:50,access_request,high,resolved,OPS,chat,0.65,False,technical_sub
+TKT-00062,2024-01-04 10:46:00,,technical,high,open,ENG,chat,-0.19,False,technical_sub
+TKT-00063,2024-01-04 18:59:00,2024-01-04 22:42:54,onboarding,high,resolved,OPS,email,0.47,True,technical_sub
+TKT-00064,2024-01-04 13:54:00,,billing,medium,open,OPS,chat,0.42,False,billing_sub
+TKT-00065,2024-01-04 15:09:00,2024-01-05 11:10:24,data_quality,medium,closed,ENG,email,0.52,False,onboarding_sub
+TKT-00066,2024-01-04 14:09:00,2024-01-05 15:09:05,access_request,low,resolved,SALES,portal,-0.23,False,access_request_sub
+TKT-00067,2024-01-04 09:31:00,2024-01-04 14:22:17,onboarding,medium,resolved,SUPPORT,email,0.19,False,technical_sub
+TKT-00068,2024-01-04 17:09:00,2024-01-04 23:59:07,access_request,high,resolved,OPS,phone,0.2,False,technical_sub
+TKT-00069,2024-01-04 15:42:00,2024-01-05 21:05:52,technical,low,resolved,OPS,portal,-0.29,False,access_request_sub
+TKT-00070,2024-01-04 09:36:00,2024-01-04 18:35:37,technical,high,resolved,SUPPORT,portal,-0.51,False,onboarding_sub
+TKT-00071,2024-01-04 15:44:00,,data_quality,medium,open,SUPPORT,portal,0.48,False,billing_sub
+TKT-00072,2024-01-04 16:31:00,2024-01-05 10:45:27,access_request,medium,resolved,ENG,chat,0.04,False,billing_sub
+TKT-00073,2024-01-04 11:23:00,2024-01-04 23:18:58,onboarding,high,resolved,SALES,portal,0.67,False,onboarding_sub
+TKT-00074,2024-01-04 10:18:00,2024-01-05 16:32:01,billing,medium,closed,OPS,portal,-0.71,False,billing_sub
+TKT-00075,2024-01-04 08:44:00,,onboarding,medium,open,ENG,email,0.26,False,data_quality_sub
+TKT-00076,2024-01-04 08:09:00,2024-01-04 10:01:08,technical,high,resolved,SALES,portal,0.42,False,billing_sub
+TKT-00077,2024-01-04 12:30:00,2024-01-04 17:12:38,onboarding,high,resolved,ENG,portal,-0.7,False,data_quality_sub
+TKT-00078,2024-01-05 10:00:00,2024-01-07 08:19:38,data_quality,low,closed,SUPPORT,phone,0.33,False,billing_sub
+TKT-00079,2024-01-05 09:33:00,2024-01-09 16:18:53,access_request,low,resolved,ENG,portal,-0.17,False,data_quality_sub
+TKT-00080,2024-01-05 09:52:00,2024-01-06 03:34:34,access_request,medium,closed,OPS,email,0.49,False,billing_sub
+TKT-00081,2024-01-05 09:04:00,2024-01-08 21:23:52,technical,low,closed,OPS,phone,-0.54,False,billing_sub
+TKT-00082,2024-01-05 12:12:00,2024-01-06 11:32:37,billing,medium,resolved,SUPPORT,email,0.76,False,data_quality_sub
+TKT-00083,2024-01-05 15:02:00,2024-01-05 16:29:57,technical,critical,closed,SUPPORT,phone,0.73,False,onboarding_sub
+TKT-00084,2024-01-05 13:08:00,,technical,high,open,SUPPORT,chat,0.63,False,data_quality_sub
+TKT-00085,2024-01-05 10:01:00,2024-01-05 15:13:11,onboarding,high,resolved,OPS,portal,0.29,False,technical_sub
+TKT-00086,2024-01-05 11:56:00,2024-01-05 16:20:26,billing,critical,resolved,SUPPORT,chat,0.46,False,onboarding_sub
+TKT-00087,2024-01-05 14:02:00,,access_request,medium,open,OPS,portal,0.8,False,billing_sub
+TKT-00088,2024-01-05 15:06:00,,billing,medium,open,SUPPORT,email,-0.0,False,billing_sub
+TKT-00089,2024-01-05 10:04:00,2024-01-05 12:52:59,technical,critical,resolved,OPS,chat,-0.39,False,onboarding_sub
+TKT-00090,2024-01-05 15:41:00,,technical,high,open,SALES,email,-0.22,False,access_request_sub
+TKT-00091,2024-01-05 18:08:00,2024-01-06 00:46:14,onboarding,high,closed,ENG,chat,0.01,False,technical_sub
+TKT-00092,2024-01-05 18:03:00,,billing,medium,open,ENG,portal,0.56,False,billing_sub
+TKT-00093,2024-01-05 09:14:00,2024-01-06 02:24:47,onboarding,medium,resolved,SALES,chat,0.23,False,access_request_sub
+TKT-00094,2024-01-05 10:46:00,2024-01-09 18:26:17,access_request,low,closed,OPS,chat,-0.27,False,data_quality_sub
+TKT-00095,2024-01-05 15:07:00,2024-01-05 17:27:23,access_request,medium,resolved,OPS,portal,-0.29,True,data_quality_sub
+TKT-00096,2024-01-05 08:59:00,,access_request,high,open,SALES,portal,-0.71,False,access_request_sub
+TKT-00097,2024-01-05 18:11:00,2024-01-06 02:35:38,technical,low,closed,SUPPORT,chat,0.59,False,onboarding_sub
+TKT-00098,2024-01-05 08:05:00,,access_request,low,open,SUPPORT,phone,-0.54,False,access_request_sub
+TKT-00099,2024-01-05 16:44:00,,access_request,medium,open,SUPPORT,chat,0.52,False,data_quality_sub
+TKT-00100,2024-01-05 18:37:00,2024-01-07 06:15:21,technical,low,closed,OPS,chat,0.69,False,onboarding_sub
+TKT-00101,2024-01-05 18:26:00,2024-01-09 00:43:04,billing,low,closed,SALES,email,-0.74,False,billing_sub
+TKT-00102,2024-01-06 10:38:00,2024-01-06 23:48:58,data_quality,medium,resolved,ENG,phone,0.5,True,onboarding_sub
+TKT-00103,2024-01-06 09:44:00,2024-01-07 21:42:00,access_request,medium,closed,SUPPORT,phone,0.53,False,onboarding_sub
+TKT-00104,2024-01-06 10:29:00,2024-01-07 06:24:40,data_quality,low,resolved,SALES,chat,-0.34,False,access_request_sub
+TKT-00105,2024-01-06 17:59:00,,technical,medium,open,ENG,email,-0.66,True,access_request_sub
+TKT-00106,2024-01-06 17:59:00,2024-01-09 14:46:13,onboarding,low,resolved,SALES,portal,-0.44,False,access_request_sub
+TKT-00107,2024-01-06 15:07:00,2024-01-10 05:02:52,access_request,low,closed,SALES,email,0.7,False,data_quality_sub
+TKT-00108,2024-01-06 18:16:00,2024-01-10 19:51:09,billing,low,closed,ENG,chat,-0.75,True,onboarding_sub
+TKT-00109,2024-01-06 16:52:00,,onboarding,high,open,SUPPORT,portal,0.73,False,billing_sub
+TKT-00110,2024-01-06 14:12:00,2024-01-07 04:57:58,data_quality,medium,resolved,SALES,portal,0.7,False,billing_sub
+TKT-00111,2024-01-06 13:33:00,2024-01-06 22:38:02,data_quality,medium,resolved,ENG,chat,0.55,False,onboarding_sub
+TKT-00112,2024-01-06 10:20:00,2024-01-06 12:21:33,technical,high,closed,OPS,email,0.19,False,technical_sub
+TKT-00113,2024-01-06 08:47:00,,access_request,medium,open,SUPPORT,portal,-0.42,False,onboarding_sub
+TKT-00114,2024-01-06 11:46:00,,access_request,low,open,SUPPORT,email,-0.36,False,technical_sub
+TKT-00115,2024-01-06 17:55:00,2024-01-07 10:59:10,technical,medium,resolved,OPS,phone,-0.38,False,technical_sub
+TKT-00116,2024-01-06 13:58:00,,access_request,medium,open,ENG,chat,0.47,False,access_request_sub
+TKT-00117,2024-01-06 09:13:00,2024-01-06 12:05:34,access_request,critical,closed,OPS,portal,-0.32,False,data_quality_sub
+TKT-00118,2024-01-06 08:07:00,,onboarding,medium,open,SALES,email,-0.55,False,technical_sub
+TKT-00119,2024-01-06 08:34:00,2024-01-08 16:19:24,billing,low,resolved,SUPPORT,email,0.64,True,billing_sub
+TKT-00120,2024-01-07 10:17:00,2024-01-08 08:36:06,onboarding,low,resolved,SUPPORT,chat,0.39,False,data_quality_sub
+TKT-00121,2024-01-07 11:16:00,2024-01-07 15:42:07,access_request,critical,closed,ENG,phone,-0.53,False,access_request_sub
+TKT-00122,2024-01-07 15:27:00,2024-01-08 01:57:30,data_quality,medium,closed,ENG,chat,-0.11,False,onboarding_sub
+TKT-00123,2024-01-07 09:28:00,2024-01-07 10:50:16,data_quality,high,closed,SALES,phone,0.17,False,data_quality_sub
+TKT-00124,2024-01-07 08:07:00,2024-01-07 20:24:37,onboarding,medium,resolved,OPS,email,-0.46,False,billing_sub
+TKT-00125,2024-01-07 09:00:00,2024-01-07 10:07:11,billing,high,closed,SALES,phone,0.64,False,access_request_sub
+TKT-00126,2024-01-07 11:33:00,2024-01-10 00:34:21,data_quality,low,resolved,SALES,chat,-0.29,False,billing_sub
+TKT-00127,2024-01-07 15:31:00,2024-01-08 21:52:44,technical,low,resolved,SALES,portal,0.16,False,billing_sub
+TKT-00128,2024-01-07 12:01:00,2024-01-08 18:58:48,access_request,medium,resolved,SUPPORT,portal,0.55,False,data_quality_sub
+TKT-00129,2024-01-07 08:21:00,2024-01-07 09:41:50,access_request,critical,resolved,SUPPORT,phone,-0.29,False,technical_sub
+TKT-00130,2024-01-07 13:31:00,2024-01-08 04:16:59,access_request,medium,closed,ENG,phone,0.7,False,billing_sub
+TKT-00131,2024-01-07 08:08:00,2024-01-08 19:40:45,billing,low,closed,OPS,email,-0.49,False,onboarding_sub
+TKT-00132,2024-01-07 16:00:00,,technical,high,open,SUPPORT,email,-0.62,False,technical_sub
+TKT-00133,2024-01-07 17:50:00,,onboarding,low,open,OPS,portal,0.13,False,onboarding_sub
+TKT-00134,2024-01-07 17:56:00,,access_request,high,open,SALES,email,0.03,False,access_request_sub
+TKT-00135,2024-01-08 12:20:00,,access_request,medium,open,OPS,email,-0.38,False,technical_sub
+TKT-00136,2024-01-08 11:42:00,2024-01-09 18:39:18,technical,medium,resolved,SALES,email,-0.46,False,access_request_sub
+TKT-00137,2024-01-08 11:31:00,2024-01-08 14:48:42,onboarding,high,closed,SALES,portal,0.56,False,billing_sub
+TKT-00138,2024-01-08 13:24:00,,data_quality,low,open,OPS,chat,-0.5,False,billing_sub
+TKT-00139,2024-01-08 17:41:00,2024-01-09 10:49:00,technical,medium,resolved,OPS,email,0.63,False,technical_sub
+TKT-00140,2024-01-08 16:28:00,2024-01-08 21:36:29,onboarding,medium,resolved,SALES,portal,-0.56,False,data_quality_sub
+TKT-00141,2024-01-08 15:17:00,2024-01-08 18:00:10,access_request,medium,closed,OPS,phone,-0.5,False,onboarding_sub
+TKT-00142,2024-01-08 15:33:00,2024-01-09 16:23:26,technical,medium,resolved,OPS,email,-0.71,True,onboarding_sub
+TKT-00143,2024-01-08 16:06:00,2024-01-12 15:32:17,access_request,low,closed,SALES,email,-0.45,False,onboarding_sub
+TKT-00144,2024-01-08 10:50:00,2024-01-09 10:07:29,technical,medium,closed,ENG,portal,0.01,False,access_request_sub
+TKT-00145,2024-01-08 11:10:00,2024-01-08 12:55:50,onboarding,high,resolved,SALES,portal,0.74,False,access_request_sub
+TKT-00146,2024-01-08 10:16:00,,billing,medium,open,ENG,phone,0.75,False,access_request_sub
+TKT-00147,2024-01-08 15:07:00,2024-01-08 16:18:28,billing,high,closed,OPS,portal,0.44,False,onboarding_sub
+TKT-00148,2024-01-08 13:34:00,2024-01-09 07:35:38,access_request,medium,closed,ENG,phone,-0.32,False,data_quality_sub
+TKT-00149,2024-01-08 17:30:00,2024-01-09 02:02:37,billing,high,resolved,SALES,portal,0.25,False,access_request_sub
+TKT-00150,2024-01-08 17:47:00,2024-01-10 16:52:13,technical,low,resolved,OPS,chat,0.22,False,data_quality_sub
+TKT-00151,2024-01-08 15:56:00,2024-01-08 19:51:06,onboarding,high,closed,SALES,chat,0.71,False,billing_sub
+TKT-00152,2024-01-08 16:44:00,2024-01-11 11:15:23,access_request,low,closed,SUPPORT,phone,-0.62,True,billing_sub
+TKT-00153,2024-01-08 10:33:00,,data_quality,medium,open,OPS,phone,-0.02,False,onboarding_sub
+TKT-00154,2024-01-08 08:13:00,2024-01-11 00:40:31,access_request,low,resolved,SUPPORT,email,-0.11,False,technical_sub
+TKT-00155,2024-01-08 10:22:00,,data_quality,low,open,OPS,email,0.34,False,billing_sub
+TKT-00156,2024-01-08 09:18:00,2024-01-09 02:51:40,billing,medium,closed,SALES,chat,-0.16,False,onboarding_sub
+TKT-00157,2024-01-09 10:36:00,2024-01-10 18:15:27,billing,medium,resolved,SUPPORT,portal,-0.13,False,onboarding_sub
+TKT-00158,2024-01-09 17:59:00,2024-01-12 05:23:13,access_request,low,closed,ENG,portal,0.04,False,data_quality_sub
+TKT-00159,2024-01-09 13:29:00,2024-01-09 16:48:57,access_request,critical,closed,ENG,email,0.73,False,billing_sub
+TKT-00160,2024-01-09 12:50:00,2024-01-10 07:45:38,data_quality,medium,resolved,SUPPORT,email,0.41,False,access_request_sub
+TKT-00161,2024-01-09 15:51:00,,data_quality,medium,open,SALES,email,-0.66,False,technical_sub
+TKT-00162,2024-01-09 09:52:00,2024-01-10 03:43:04,technical,medium,closed,ENG,email,0.32,False,data_quality_sub
+TKT-00163,2024-01-09 15:08:00,2024-01-09 23:33:56,onboarding,high,resolved,SUPPORT,email,0.49,False,billing_sub
+TKT-00164,2024-01-09 08:09:00,2024-01-09 22:06:02,billing,low,resolved,OPS,email,-0.04,False,access_request_sub
+TKT-00165,2024-01-09 09:19:00,2024-01-10 20:42:39,data_quality,medium,resolved,SUPPORT,chat,0.57,False,access_request_sub
+TKT-00166,2024-01-09 08:11:00,2024-01-12 16:51:19,billing,low,resolved,OPS,chat,-0.03,False,technical_sub
+TKT-00167,2024-01-09 15:23:00,2024-01-09 18:20:21,access_request,critical,resolved,SALES,chat,-0.56,False,technical_sub
+TKT-00168,2024-01-09 08:37:00,2024-01-10 08:11:43,technical,medium,closed,SUPPORT,portal,-0.05,False,onboarding_sub
+TKT-00169,2024-01-09 10:22:00,2024-01-13 07:29:45,onboarding,low,resolved,SALES,email,-0.52,False,data_quality_sub
+TKT-00170,2024-01-09 10:17:00,,onboarding,medium,open,SALES,email,0.67,False,access_request_sub
+TKT-00171,2024-01-09 17:42:00,2024-01-09 22:14:33,billing,critical,closed,SUPPORT,phone,0.14,False,technical_sub
+TKT-00172,2024-01-09 10:14:00,2024-01-09 22:35:56,onboarding,low,closed,OPS,portal,-0.63,False,access_request_sub
+TKT-00173,2024-01-10 09:03:00,2024-01-10 10:37:20,access_request,critical,resolved,SUPPORT,email,0.68,False,access_request_sub
+TKT-00174,2024-01-10 18:36:00,2024-01-11 02:27:00,access_request,medium,closed,SUPPORT,portal,-0.48,False,data_quality_sub
+TKT-00175,2024-01-10 11:05:00,2024-01-10 19:00:12,billing,high,resolved,ENG,portal,0.63,False,access_request_sub
+TKT-00176,2024-01-10 09:21:00,2024-01-11 11:53:57,billing,medium,closed,OPS,chat,0.0,False,data_quality_sub
+TKT-00177,2024-01-10 09:28:00,2024-01-10 14:36:14,data_quality,high,resolved,ENG,portal,0.45,False,technical_sub
+TKT-00178,2024-01-10 08:38:00,2024-01-10 10:25:20,onboarding,medium,closed,SALES,phone,-0.69,False,onboarding_sub
+TKT-00179,2024-01-10 17:15:00,,data_quality,low,open,SUPPORT,chat,0.19,False,technical_sub
+TKT-00180,2024-01-10 12:41:00,2024-01-11 01:30:53,billing,medium,closed,SUPPORT,email,-0.58,False,onboarding_sub
+TKT-00181,2024-01-10 18:58:00,,billing,critical,open,SALES,email,0.49,False,data_quality_sub
+TKT-00182,2024-01-10 08:22:00,,access_request,high,open,ENG,chat,0.71,False,technical_sub
+TKT-00183,2024-01-10 15:32:00,2024-01-12 06:00:39,onboarding,low,closed,OPS,email,0.69,True,billing_sub
+TKT-00184,2024-01-10 14:43:00,2024-01-10 16:20:59,technical,medium,closed,SALES,chat,0.31,False,access_request_sub
+TKT-00185,2024-01-10 09:28:00,2024-01-11 08:00:52,onboarding,medium,closed,OPS,phone,-0.1,False,billing_sub
+TKT-00186,2024-01-10 08:14:00,2024-01-13 17:45:29,technical,low,resolved,OPS,email,-0.68,False,billing_sub
+TKT-00187,2024-01-10 13:22:00,2024-01-14 13:38:31,billing,low,closed,SALES,chat,0.25,False,technical_sub
+TKT-00188,2024-01-10 16:13:00,2024-01-13 23:53:06,billing,low,closed,SALES,phone,0.71,False,onboarding_sub
+TKT-00189,2024-01-10 11:33:00,,onboarding,high,open,ENG,email,-0.25,False,data_quality_sub
+TKT-00190,2024-01-10 09:13:00,,data_quality,medium,open,OPS,phone,0.39,False,onboarding_sub
+TKT-00191,2024-01-10 10:02:00,,access_request,high,open,SALES,email,-0.77,False,onboarding_sub
+TKT-00192,2024-01-10 14:19:00,,technical,low,open,ENG,phone,0.57,False,technical_sub
+TKT-00193,2024-01-10 14:28:00,2024-01-10 17:43:46,access_request,high,resolved,ENG,phone,-0.75,False,technical_sub
+TKT-00194,2024-01-10 13:59:00,,onboarding,critical,open,OPS,email,-0.25,False,access_request_sub
+TKT-00195,2024-01-10 08:51:00,2024-01-10 14:07:09,data_quality,high,closed,SALES,chat,0.12,False,data_quality_sub
+TKT-00196,2024-01-10 14:29:00,,billing,low,open,OPS,email,-0.35,False,onboarding_sub
+TKT-00197,2024-01-11 16:18:00,2024-01-11 19:16:22,onboarding,critical,closed,SUPPORT,phone,0.45,False,data_quality_sub
+TKT-00198,2024-01-11 12:36:00,2024-01-15 07:03:07,access_request,low,resolved,SALES,email,-0.1,False,onboarding_sub
+TKT-00199,2024-01-11 16:13:00,2024-01-12 13:30:05,onboarding,medium,resolved,SUPPORT,email,-0.1,False,onboarding_sub
+TKT-00200,2024-01-11 15:08:00,2024-01-12 10:48:15,billing,low,resolved,ENG,email,-0.51,False,access_request_sub
+TKT-00201,2024-01-11 08:35:00,,technical,medium,open,SUPPORT,phone,-0.77,False,onboarding_sub
+TKT-00202,2024-01-11 08:38:00,2024-01-11 13:27:14,technical,medium,closed,ENG,portal,-0.47,False,access_request_sub
+TKT-00203,2024-01-11 14:56:00,2024-01-11 18:34:32,onboarding,low,closed,SALES,phone,-0.05,False,data_quality_sub
+TKT-00204,2024-01-11 13:02:00,2024-01-12 06:05:24,technical,low,resolved,OPS,phone,0.02,False,data_quality_sub
+TKT-00205,2024-01-11 13:13:00,2024-01-11 20:37:34,access_request,high,resolved,ENG,email,0.73,False,data_quality_sub
+TKT-00206,2024-01-11 17:40:00,2024-01-12 09:17:58,data_quality,medium,resolved,ENG,chat,0.25,False,onboarding_sub
+TKT-00207,2024-01-11 17:18:00,,onboarding,low,open,OPS,phone,-0.43,False,technical_sub
+TKT-00208,2024-01-11 15:46:00,,access_request,medium,open,SUPPORT,email,-0.24,False,onboarding_sub
+TKT-00209,2024-01-11 17:14:00,2024-01-12 08:53:35,data_quality,medium,resolved,OPS,chat,0.28,False,data_quality_sub
+TKT-00210,2024-01-12 13:20:00,2024-01-12 18:49:36,data_quality,high,resolved,SALES,portal,0.64,False,technical_sub
+TKT-00211,2024-01-12 14:16:00,,access_request,low,open,ENG,portal,0.59,False,technical_sub
+TKT-00212,2024-01-12 09:08:00,2024-01-13 04:39:33,access_request,medium,closed,SUPPORT,portal,-0.16,False,onboarding_sub
+TKT-00213,2024-01-12 13:37:00,2024-01-13 02:08:53,technical,low,resolved,SUPPORT,chat,0.66,False,access_request_sub
+TKT-00214,2024-01-12 15:44:00,2024-01-13 12:21:45,billing,low,resolved,ENG,phone,0.28,False,onboarding_sub
+TKT-00215,2024-01-12 16:46:00,2024-01-14 02:50:00,billing,medium,resolved,SUPPORT,chat,-0.25,False,data_quality_sub
+TKT-00216,2024-01-12 14:18:00,2024-01-13 02:27:00,billing,medium,resolved,ENG,portal,-0.11,False,data_quality_sub
+TKT-00217,2024-01-12 13:18:00,2024-01-13 00:22:28,access_request,medium,closed,OPS,portal,-0.34,False,data_quality_sub
+TKT-00218,2024-01-12 11:42:00,2024-01-12 13:45:20,technical,high,resolved,ENG,portal,-0.79,False,technical_sub
+TKT-00219,2024-01-12 12:36:00,2024-01-13 05:10:07,access_request,medium,resolved,SUPPORT,email,0.35,False,technical_sub
+TKT-00220,2024-01-12 14:31:00,2024-01-13 21:46:27,technical,medium,closed,SUPPORT,email,0.39,False,technical_sub
+TKT-00221,2024-01-12 16:21:00,2024-01-13 15:25:18,onboarding,medium,resolved,ENG,chat,-0.64,False,data_quality_sub
+TKT-00222,2024-01-12 16:42:00,,technical,medium,open,ENG,portal,-0.58,False,billing_sub
+TKT-00223,2024-01-12 12:30:00,2024-01-13 17:59:07,onboarding,medium,closed,OPS,portal,0.22,False,data_quality_sub
+TKT-00224,2024-01-12 11:00:00,2024-01-12 17:23:51,billing,high,resolved,ENG,chat,0.3,False,data_quality_sub
+TKT-00225,2024-01-12 13:30:00,2024-01-16 20:36:49,billing,low,closed,SUPPORT,chat,-0.02,False,data_quality_sub
+TKT-00226,2024-01-13 12:06:00,2024-01-14 22:48:07,access_request,medium,closed,SALES,phone,-0.4,False,billing_sub
+TKT-00227,2024-01-13 13:42:00,2024-01-14 15:05:38,access_request,medium,resolved,SALES,chat,0.3,True,onboarding_sub
+TKT-00228,2024-01-13 14:03:00,2024-01-14 02:21:42,access_request,medium,closed,SALES,chat,-0.12,False,technical_sub
+TKT-00229,2024-01-13 11:21:00,2024-01-13 17:13:56,access_request,low,closed,OPS,portal,0.06,False,technical_sub
+TKT-00230,2024-01-13 17:39:00,2024-01-13 21:40:29,technical,critical,resolved,SALES,email,0.45,False,onboarding_sub
+TKT-00231,2024-01-13 16:04:00,2024-01-13 22:46:18,data_quality,high,closed,OPS,portal,0.54,False,billing_sub
+TKT-00232,2024-01-13 10:58:00,2024-01-15 08:11:59,technical,low,resolved,ENG,email,0.41,False,data_quality_sub
+TKT-00233,2024-01-13 15:02:00,2024-01-14 02:35:04,billing,medium,resolved,ENG,phone,0.4,False,access_request_sub
+TKT-00234,2024-01-13 10:52:00,,onboarding,medium,open,ENG,email,-0.68,False,access_request_sub
+TKT-00235,2024-01-13 16:38:00,,technical,low,open,SALES,portal,0.53,False,onboarding_sub
+TKT-00236,2024-01-13 08:19:00,2024-01-13 16:24:36,data_quality,medium,closed,SALES,chat,-0.33,False,access_request_sub
+TKT-00237,2024-01-13 15:18:00,,data_quality,medium,open,OPS,chat,-0.77,False,access_request_sub
+TKT-00238,2024-01-13 16:45:00,2024-01-13 18:52:13,access_request,critical,resolved,OPS,chat,-0.21,False,onboarding_sub
+TKT-00239,2024-01-13 18:05:00,2024-01-14 01:00:26,data_quality,medium,closed,OPS,email,-0.57,False,access_request_sub
+TKT-00240,2024-01-13 17:48:00,2024-01-14 21:39:33,access_request,medium,closed,SUPPORT,phone,0.53,True,data_quality_sub
+TKT-00241,2024-01-13 08:17:00,2024-01-14 11:42:34,data_quality,medium,closed,SALES,phone,0.74,False,access_request_sub
+TKT-00242,2024-01-13 16:35:00,,technical,high,open,ENG,chat,0.32,False,technical_sub
+TKT-00243,2024-01-14 09:10:00,2024-01-15 16:36:28,technical,medium,resolved,SALES,chat,-0.53,False,access_request_sub
+TKT-00244,2024-01-14 16:26:00,2024-01-16 01:11:08,onboarding,low,closed,SUPPORT,phone,0.18,False,billing_sub
+TKT-00245,2024-01-14 16:43:00,2024-01-17 11:24:52,data_quality,low,closed,SUPPORT,chat,-0.06,False,billing_sub
+TKT-00246,2024-01-14 15:00:00,2024-01-15 11:10:37,technical,low,closed,ENG,phone,0.32,False,technical_sub
+TKT-00247,2024-01-14 13:06:00,2024-01-15 06:30:15,technical,medium,resolved,SUPPORT,portal,-0.25,True,billing_sub
+TKT-00248,2024-01-14 14:37:00,,onboarding,low,open,SALES,phone,0.1,False,billing_sub
+TKT-00249,2024-01-14 10:06:00,,onboarding,low,open,OPS,phone,0.1,False,data_quality_sub
+TKT-00250,2024-01-14 14:21:00,2024-01-15 21:13:08,data_quality,medium,closed,SALES,portal,-0.53,False,billing_sub
+TKT-00251,2024-01-14 17:09:00,2024-01-16 21:01:28,onboarding,low,resolved,ENG,email,-0.58,False,access_request_sub
+TKT-00252,2024-01-14 13:19:00,2024-01-14 18:25:19,access_request,medium,closed,SALES,chat,-0.23,False,onboarding_sub
+TKT-00253,2024-01-14 17:53:00,2024-01-15 00:41:50,billing,medium,closed,SALES,chat,-0.02,False,technical_sub
+TKT-00254,2024-01-14 14:41:00,2024-01-14 16:34:07,access_request,medium,closed,SUPPORT,chat,-0.46,False,billing_sub
+TKT-00255,2024-01-14 10:59:00,,technical,medium,open,OPS,chat,-0.22,False,data_quality_sub
+TKT-00256,2024-01-14 09:58:00,2024-01-14 19:50:53,data_quality,medium,resolved,SUPPORT,email,0.24,False,access_request_sub
+TKT-00257,2024-01-15 12:17:00,2024-01-15 18:08:20,access_request,critical,resolved,SALES,chat,-0.52,False,data_quality_sub
+TKT-00258,2024-01-15 08:23:00,2024-01-15 19:13:12,billing,high,resolved,OPS,email,-0.13,False,technical_sub
+TKT-00259,2024-01-15 08:20:00,2024-01-16 04:22:34,data_quality,medium,resolved,ENG,phone,0.54,False,onboarding_sub
+TKT-00260,2024-01-15 10:57:00,,onboarding,high,open,ENG,chat,-0.13,False,technical_sub
+TKT-00261,2024-01-15 16:09:00,,technical,low,open,OPS,chat,-0.73,False,data_quality_sub
+TKT-00262,2024-01-15 18:47:00,,technical,medium,open,SUPPORT,phone,0.1,False,access_request_sub
+TKT-00263,2024-01-15 09:36:00,,technical,medium,open,ENG,email,-0.51,False,onboarding_sub
+TKT-00264,2024-01-15 08:49:00,2024-01-15 10:10:55,access_request,medium,closed,ENG,portal,-0.31,False,billing_sub
+TKT-00265,2024-01-15 10:19:00,2024-01-15 19:04:54,onboarding,high,resolved,OPS,phone,-0.14,False,onboarding_sub
+TKT-00266,2024-01-15 10:18:00,2024-01-15 16:08:08,access_request,high,resolved,SUPPORT,phone,-0.24,False,access_request_sub
+TKT-00267,2024-01-15 18:53:00,2024-01-16 06:19:46,billing,high,closed,OPS,chat,-0.24,False,onboarding_sub
+TKT-00268,2024-01-15 16:35:00,,onboarding,low,open,ENG,portal,-0.39,False,technical_sub
+TKT-00269,2024-01-16 18:11:00,2024-01-17 11:32:13,onboarding,medium,closed,SALES,email,-0.28,False,onboarding_sub
+TKT-00270,2024-01-16 08:10:00,2024-01-16 12:50:54,billing,high,resolved,SUPPORT,phone,-0.54,False,technical_sub
+TKT-00271,2024-01-16 17:29:00,2024-01-17 18:47:26,access_request,medium,closed,OPS,phone,0.36,False,access_request_sub
+TKT-00272,2024-01-16 12:02:00,,billing,medium,open,ENG,chat,-0.12,False,data_quality_sub
+TKT-00273,2024-01-16 08:10:00,2024-01-17 17:26:56,data_quality,medium,resolved,OPS,portal,0.26,False,technical_sub
+TKT-00274,2024-01-16 12:50:00,,onboarding,critical,open,SALES,chat,-0.54,True,billing_sub
+TKT-00275,2024-01-16 10:19:00,2024-01-17 07:04:05,access_request,low,resolved,ENG,portal,-0.55,False,onboarding_sub
+TKT-00276,2024-01-16 10:22:00,2024-01-18 22:11:54,billing,low,closed,SALES,chat,0.53,False,technical_sub
+TKT-00277,2024-01-16 13:48:00,,access_request,medium,open,SUPPORT,phone,0.51,False,access_request_sub
+TKT-00278,2024-01-16 16:04:00,2024-01-17 16:30:44,billing,medium,resolved,OPS,portal,-0.21,False,technical_sub
+TKT-00279,2024-01-16 14:58:00,2024-01-17 00:01:09,billing,medium,closed,ENG,portal,-0.32,False,access_request_sub
+TKT-00280,2024-01-16 14:09:00,2024-01-17 04:41:18,technical,medium,closed,SUPPORT,chat,-0.51,False,data_quality_sub
+TKT-00281,2024-01-16 15:51:00,2024-01-17 00:23:48,access_request,high,resolved,ENG,portal,-0.29,False,access_request_sub
+TKT-00282,2024-01-17 15:41:00,,access_request,medium,open,SALES,email,-0.32,False,technical_sub
+TKT-00283,2024-01-17 15:32:00,2024-01-18 09:06:26,data_quality,medium,closed,SUPPORT,email,0.46,False,data_quality_sub
+TKT-00284,2024-01-17 18:05:00,2024-01-17 22:47:29,billing,high,closed,SALES,chat,-0.72,False,technical_sub
+TKT-00285,2024-01-17 15:23:00,2024-01-17 22:58:33,onboarding,high,closed,SALES,phone,0.28,False,technical_sub
+TKT-00286,2024-01-17 10:18:00,2024-01-17 11:54:47,onboarding,medium,closed,ENG,email,-0.23,True,access_request_sub
+TKT-00287,2024-01-17 09:34:00,2024-01-20 16:19:58,access_request,low,closed,SUPPORT,phone,0.75,False,billing_sub
+TKT-00288,2024-01-17 16:36:00,2024-01-17 17:58:57,technical,critical,closed,OPS,email,-0.19,False,technical_sub
+TKT-00289,2024-01-17 18:47:00,2024-01-18 09:48:33,onboarding,medium,resolved,ENG,chat,0.74,False,data_quality_sub
+TKT-00290,2024-01-17 12:39:00,2024-01-21 09:03:14,technical,low,resolved,SUPPORT,chat,-0.46,False,onboarding_sub
+TKT-00291,2024-01-17 10:17:00,2024-01-17 11:47:11,billing,high,closed,SUPPORT,phone,-0.79,False,access_request_sub
+TKT-00292,2024-01-17 12:17:00,2024-01-18 16:56:32,technical,medium,closed,OPS,portal,-0.77,False,technical_sub
+TKT-00293,2024-01-17 17:52:00,2024-01-18 09:35:36,data_quality,medium,closed,SALES,chat,0.69,True,onboarding_sub
+TKT-00294,2024-01-17 15:09:00,2024-01-18 18:08:23,data_quality,medium,resolved,OPS,chat,-0.39,True,data_quality_sub
+TKT-00295,2024-01-17 18:31:00,2024-01-17 21:14:35,data_quality,critical,resolved,SUPPORT,phone,-0.33,False,access_request_sub
+TKT-00296,2024-01-17 17:37:00,2024-01-19 08:14:26,access_request,low,closed,ENG,phone,0.09,False,billing_sub
+TKT-00297,2024-01-17 16:08:00,2024-01-19 02:20:31,technical,medium,resolved,SALES,portal,-0.46,False,onboarding_sub
+TKT-00298,2024-01-17 10:49:00,,access_request,low,open,SALES,phone,0.4,False,data_quality_sub
+TKT-00299,2024-01-17 13:40:00,2024-01-21 13:20:08,data_quality,low,closed,SALES,portal,0.57,False,access_request_sub
+TKT-00300,2024-01-17 15:10:00,,billing,low,open,SALES,phone,-0.79,False,access_request_sub
+TKT-00301,2024-01-17 18:58:00,2024-01-18 16:16:19,access_request,medium,closed,SALES,portal,0.22,False,billing_sub
+TKT-00302,2024-01-17 16:05:00,2024-01-18 18:42:30,onboarding,medium,resolved,OPS,portal,0.11,False,technical_sub
+TKT-00303,2024-01-17 08:47:00,2024-01-17 13:43:57,data_quality,critical,closed,OPS,portal,-0.07,False,billing_sub
+TKT-00304,2024-01-18 11:20:00,2024-01-18 14:36:06,billing,medium,resolved,SALES,chat,-0.41,False,billing_sub
+TKT-00305,2024-01-18 15:32:00,2024-01-19 01:22:26,billing,high,closed,OPS,chat,0.36,False,technical_sub
+TKT-00306,2024-01-18 14:55:00,2024-01-19 08:22:26,technical,medium,closed,SALES,phone,0.61,False,data_quality_sub
+TKT-00307,2024-01-18 16:45:00,2024-01-19 10:34:41,onboarding,medium,resolved,SALES,email,-0.22,False,data_quality_sub
+TKT-00308,2024-01-18 15:27:00,,technical,medium,open,OPS,phone,0.41,False,technical_sub
+TKT-00309,2024-01-18 13:26:00,2024-01-18 15:59:41,access_request,high,resolved,OPS,phone,-0.64,False,technical_sub
+TKT-00310,2024-01-18 15:48:00,2024-01-19 01:53:59,access_request,medium,closed,SUPPORT,chat,0.32,False,data_quality_sub
+TKT-00311,2024-01-18 10:09:00,2024-01-18 13:55:32,data_quality,low,closed,SUPPORT,phone,-0.31,False,data_quality_sub
+TKT-00312,2024-01-18 15:45:00,2024-01-19 03:04:14,billing,medium,resolved,SUPPORT,chat,-0.39,False,billing_sub
+TKT-00313,2024-01-18 10:37:00,2024-01-19 00:21:44,access_request,medium,closed,OPS,phone,0.23,False,data_quality_sub
+TKT-00314,2024-01-18 13:24:00,,access_request,medium,open,OPS,chat,-0.52,False,technical_sub
+TKT-00315,2024-01-18 09:21:00,2024-01-18 17:34:30,onboarding,medium,resolved,ENG,portal,-0.23,False,technical_sub
+TKT-00316,2024-01-18 16:57:00,2024-01-18 20:10:40,access_request,high,resolved,ENG,phone,0.01,False,data_quality_sub
+TKT-00317,2024-01-18 16:55:00,2024-01-19 02:41:37,data_quality,high,closed,OPS,portal,-0.39,False,billing_sub
+TKT-00318,2024-01-19 15:11:00,2024-01-20 13:30:11,technical,medium,closed,OPS,email,0.65,False,onboarding_sub
+TKT-00319,2024-01-19 11:15:00,2024-01-22 02:26:45,technical,low,closed,ENG,phone,0.46,False,access_request_sub
+TKT-00320,2024-01-19 09:30:00,2024-01-21 20:32:00,data_quality,low,resolved,SALES,phone,0.11,False,technical_sub
+TKT-00321,2024-01-19 15:49:00,2024-01-19 23:17:41,technical,high,closed,SUPPORT,chat,0.16,False,billing_sub
+TKT-00322,2024-01-19 15:32:00,2024-01-20 15:07:05,data_quality,medium,closed,OPS,phone,-0.36,False,onboarding_sub
+TKT-00323,2024-01-19 09:48:00,,access_request,medium,open,ENG,phone,0.63,False,access_request_sub
+TKT-00324,2024-01-19 09:48:00,2024-01-20 19:23:47,onboarding,low,closed,OPS,portal,0.45,False,billing_sub
+TKT-00325,2024-01-19 12:20:00,,access_request,medium,open,ENG,phone,0.68,False,billing_sub
+TKT-00326,2024-01-19 11:49:00,2024-01-19 18:49:43,data_quality,medium,resolved,OPS,phone,0.73,False,data_quality_sub
+TKT-00327,2024-01-19 12:14:00,,access_request,high,open,SUPPORT,phone,-0.57,False,onboarding_sub
+TKT-00328,2024-01-19 13:28:00,2024-01-19 20:39:46,technical,high,closed,SALES,email,0.75,False,billing_sub
+TKT-00329,2024-01-19 12:01:00,,billing,critical,open,OPS,phone,-0.33,False,onboarding_sub
+TKT-00330,2024-01-19 14:20:00,2024-01-20 17:11:56,data_quality,medium,resolved,SALES,phone,-0.63,False,onboarding_sub
+TKT-00331,2024-01-19 17:30:00,,technical,high,open,SALES,chat,-0.4,False,data_quality_sub
+TKT-00332,2024-01-19 09:03:00,2024-01-19 19:42:41,access_request,medium,closed,SUPPORT,email,-0.05,False,technical_sub
+TKT-00333,2024-01-20 14:52:00,2024-01-20 16:37:07,data_quality,critical,closed,OPS,email,-0.1,False,data_quality_sub
+TKT-00334,2024-01-20 12:35:00,2024-01-20 16:47:20,billing,high,resolved,ENG,phone,0.73,False,access_request_sub
+TKT-00335,2024-01-20 11:11:00,2024-01-20 14:41:16,onboarding,high,closed,OPS,phone,-0.39,False,technical_sub
+TKT-00336,2024-01-20 18:26:00,2024-01-24 09:40:56,data_quality,low,resolved,ENG,phone,-0.77,False,technical_sub
+TKT-00337,2024-01-20 13:50:00,2024-01-20 16:14:47,technical,critical,closed,ENG,email,0.76,False,data_quality_sub
+TKT-00338,2024-01-20 16:54:00,,data_quality,low,open,SALES,portal,0.4,False,access_request_sub
+TKT-00339,2024-01-20 15:28:00,,billing,high,open,SUPPORT,email,-0.51,False,access_request_sub
+TKT-00340,2024-01-20 14:56:00,2024-01-21 12:02:56,data_quality,medium,resolved,SALES,email,-0.79,False,billing_sub
+TKT-00341,2024-01-20 11:37:00,2024-01-21 23:33:53,billing,low,closed,SUPPORT,portal,-0.5,False,onboarding_sub
+TKT-00342,2024-01-20 08:34:00,2024-01-24 03:56:57,data_quality,low,resolved,SUPPORT,email,-0.28,False,billing_sub
+TKT-00343,2024-01-20 11:19:00,2024-01-21 23:00:06,billing,medium,resolved,SUPPORT,email,-0.58,False,access_request_sub
+TKT-00344,2024-01-20 14:01:00,2024-01-23 22:37:06,access_request,low,resolved,ENG,chat,-0.1,False,access_request_sub
+TKT-00345,2024-01-20 09:05:00,,data_quality,medium,open,ENG,portal,0.41,False,access_request_sub
+TKT-00346,2024-01-20 13:47:00,,access_request,high,open,OPS,portal,0.78,False,onboarding_sub
+TKT-00347,2024-01-20 16:07:00,,technical,medium,open,ENG,chat,0.49,False,technical_sub
+TKT-00348,2024-01-20 12:53:00,2024-01-21 22:59:28,billing,medium,closed,ENG,chat,0.6,True,onboarding_sub
+TKT-00349,2024-01-20 13:02:00,2024-01-20 16:46:20,billing,high,resolved,OPS,portal,0.31,False,technical_sub
+TKT-00350,2024-01-21 18:18:00,2024-01-21 23:51:49,access_request,high,resolved,OPS,portal,0.7,False,billing_sub
+TKT-00351,2024-01-21 09:50:00,2024-01-22 04:14:51,access_request,medium,closed,SUPPORT,phone,0.2,True,technical_sub
+TKT-00352,2024-01-21 15:02:00,,billing,medium,open,SALES,email,0.06,False,data_quality_sub
+TKT-00353,2024-01-21 09:00:00,2024-01-22 09:49:43,technical,low,closed,ENG,chat,-0.06,False,data_quality_sub
+TKT-00354,2024-01-21 17:51:00,2024-01-22 05:45:00,onboarding,medium,closed,OPS,phone,0.25,False,data_quality_sub
+TKT-00355,2024-01-21 09:30:00,2024-01-22 15:35:17,billing,medium,resolved,OPS,portal,0.49,False,technical_sub
+TKT-00356,2024-01-21 14:18:00,,technical,high,open,OPS,portal,-0.4,False,onboarding_sub
+TKT-00357,2024-01-21 15:42:00,2024-01-22 10:47:29,billing,medium,closed,SUPPORT,chat,-0.2,False,technical_sub
+TKT-00358,2024-01-21 14:40:00,2024-01-21 17:50:36,technical,high,resolved,OPS,email,0.54,False,access_request_sub
+TKT-00359,2024-01-21 17:30:00,2024-01-22 06:32:11,access_request,medium,closed,OPS,chat,0.19,False,technical_sub
+TKT-00360,2024-01-21 18:49:00,2024-01-21 23:31:39,onboarding,high,resolved,SUPPORT,chat,0.44,False,technical_sub
+TKT-00361,2024-01-21 13:48:00,2024-01-21 17:00:32,access_request,medium,closed,ENG,portal,-0.65,False,technical_sub
+TKT-00362,2024-01-21 12:08:00,,onboarding,low,open,SALES,chat,0.09,False,data_quality_sub
+TKT-00363,2024-01-21 16:12:00,2024-01-24 18:01:17,billing,low,resolved,SUPPORT,portal,0.1,False,technical_sub
+TKT-00364,2024-01-21 13:34:00,2024-01-22 00:59:07,onboarding,high,resolved,OPS,email,0.29,False,data_quality_sub
+TKT-00365,2024-01-21 10:34:00,,data_quality,low,open,SALES,portal,-0.35,False,access_request_sub
+TKT-00366,2024-01-21 16:26:00,,access_request,low,open,SUPPORT,portal,0.35,False,technical_sub
+TKT-00367,2024-01-21 16:42:00,2024-01-25 20:27:59,technical,low,resolved,SALES,portal,-0.57,False,billing_sub
+TKT-00368,2024-01-21 10:41:00,2024-01-22 08:22:58,onboarding,medium,resolved,ENG,portal,0.74,False,access_request_sub
+TKT-00369,2024-01-21 17:43:00,2024-01-23 18:09:30,onboarding,low,closed,ENG,email,0.03,False,data_quality_sub
+TKT-00370,2024-01-21 18:28:00,2024-01-21 23:50:12,billing,medium,closed,ENG,phone,0.6,False,technical_sub
+TKT-00371,2024-01-22 12:07:00,2024-01-22 17:48:06,access_request,high,resolved,SUPPORT,portal,0.04,False,data_quality_sub
+TKT-00372,2024-01-22 13:15:00,,access_request,critical,open,SALES,chat,-0.71,False,onboarding_sub
+TKT-00373,2024-01-22 12:57:00,2024-01-22 19:32:09,onboarding,high,closed,SUPPORT,email,-0.78,False,access_request_sub
+TKT-00374,2024-01-22 15:14:00,2024-01-25 15:27:20,access_request,low,resolved,SALES,chat,-0.73,False,technical_sub
+TKT-00375,2024-01-22 09:48:00,2024-01-23 07:06:15,access_request,medium,closed,ENG,phone,0.24,False,access_request_sub
+TKT-00376,2024-01-22 16:02:00,,access_request,medium,open,ENG,portal,0.11,True,onboarding_sub
+TKT-00377,2024-01-22 14:51:00,2024-01-24 16:42:31,onboarding,low,closed,SUPPORT,phone,0.76,False,access_request_sub
+TKT-00378,2024-01-22 13:29:00,2024-01-22 21:27:58,billing,high,resolved,SUPPORT,chat,0.41,False,billing_sub
+TKT-00379,2024-01-22 09:21:00,2024-01-22 16:16:14,onboarding,high,resolved,SUPPORT,email,0.66,False,access_request_sub
+TKT-00380,2024-01-22 15:40:00,2024-01-23 06:03:39,access_request,medium,closed,SUPPORT,phone,0.49,False,billing_sub
+TKT-00381,2024-01-22 13:01:00,2024-01-22 16:55:33,data_quality,critical,closed,OPS,chat,0.19,False,technical_sub
+TKT-00382,2024-01-22 17:58:00,,access_request,low,open,SUPPORT,portal,0.35,False,access_request_sub
+TKT-00383,2024-01-22 14:06:00,,onboarding,low,open,ENG,phone,0.8,False,technical_sub
+TKT-00384,2024-01-22 10:42:00,,technical,low,open,SALES,portal,0.53,False,billing_sub
+TKT-00385,2024-01-22 15:41:00,,billing,high,open,ENG,phone,-0.41,True,data_quality_sub
+TKT-00386,2024-01-22 15:26:00,2024-01-24 03:22:34,access_request,medium,resolved,OPS,chat,0.2,False,access_request_sub
+TKT-00387,2024-01-22 13:51:00,,access_request,high,open,SUPPORT,phone,0.64,False,onboarding_sub
+TKT-00388,2024-01-22 09:44:00,2024-01-23 16:49:53,data_quality,medium,resolved,OPS,email,0.77,False,data_quality_sub
+TKT-00389,2024-01-23 13:06:00,,data_quality,medium,open,OPS,phone,0.35,False,data_quality_sub
+TKT-00390,2024-01-23 11:29:00,2024-01-23 21:41:09,data_quality,high,closed,SALES,chat,0.15,False,billing_sub
+TKT-00391,2024-01-23 15:35:00,2024-01-27 16:26:18,billing,low,closed,ENG,phone,-0.7,False,data_quality_sub
+TKT-00392,2024-01-23 08:45:00,2024-01-25 07:50:55,access_request,low,resolved,OPS,chat,-0.3,False,onboarding_sub
+TKT-00393,2024-01-23 17:51:00,,access_request,medium,open,OPS,phone,0.58,False,technical_sub
+TKT-00394,2024-01-23 13:37:00,2024-01-24 01:22:03,data_quality,high,resolved,SALES,portal,0.37,False,data_quality_sub
+TKT-00395,2024-01-23 10:53:00,2024-01-23 19:01:36,technical,high,closed,SUPPORT,email,-0.65,False,access_request_sub
+TKT-00396,2024-01-23 14:44:00,2024-01-24 01:03:11,technical,high,resolved,SUPPORT,phone,-0.52,False,onboarding_sub
+TKT-00397,2024-01-23 10:16:00,2024-01-23 19:11:56,onboarding,medium,resolved,SALES,email,0.04,True,data_quality_sub
+TKT-00398,2024-01-23 16:03:00,2024-01-24 03:16:02,data_quality,low,resolved,ENG,email,-0.28,False,data_quality_sub
+TKT-00399,2024-01-23 09:11:00,2024-01-24 07:54:49,data_quality,medium,resolved,OPS,phone,-0.64,False,billing_sub
+TKT-00400,2024-01-23 17:11:00,,billing,medium,open,OPS,chat,-0.75,True,data_quality_sub
+TKT-00401,2024-01-23 09:51:00,,onboarding,high,open,ENG,phone,0.29,False,billing_sub
+TKT-00402,2024-01-23 15:12:00,2024-01-23 21:11:12,access_request,critical,closed,SALES,chat,0.71,False,technical_sub
+TKT-00403,2024-01-23 13:09:00,2024-01-24 18:45:55,access_request,medium,resolved,ENG,phone,-0.71,False,access_request_sub
+TKT-00404,2024-01-23 18:45:00,,data_quality,high,open,ENG,email,0.26,False,data_quality_sub
+TKT-00405,2024-01-23 16:33:00,2024-01-24 12:40:24,onboarding,medium,resolved,SUPPORT,portal,-0.08,False,access_request_sub
+TKT-00406,2024-01-23 14:05:00,2024-01-24 08:16:36,data_quality,medium,closed,SALES,chat,-0.31,False,onboarding_sub
+TKT-00407,2024-01-23 08:33:00,,billing,high,open,ENG,phone,0.63,False,data_quality_sub
+TKT-00408,2024-01-23 18:20:00,,data_quality,medium,open,ENG,email,0.75,False,onboarding_sub
+TKT-00409,2024-01-23 08:52:00,,access_request,critical,open,OPS,phone,0.29,True,billing_sub
+TKT-00410,2024-01-23 10:57:00,2024-01-24 22:13:23,access_request,low,resolved,OPS,email,-0.73,False,technical_sub
+TKT-00411,2024-01-23 08:57:00,2024-01-23 14:01:05,billing,critical,closed,SALES,portal,-0.21,False,technical_sub
+TKT-00412,2024-01-24 11:39:00,2024-01-28 11:01:05,data_quality,low,closed,SUPPORT,portal,0.7,False,onboarding_sub
+TKT-00413,2024-01-24 08:26:00,,access_request,medium,open,SUPPORT,portal,0.51,False,data_quality_sub
+TKT-00414,2024-01-24 14:02:00,2024-01-26 15:05:24,technical,low,resolved,ENG,email,-0.55,False,technical_sub
+TKT-00415,2024-01-24 13:10:00,,onboarding,low,open,SALES,phone,0.06,False,data_quality_sub
+TKT-00416,2024-01-24 09:25:00,,billing,low,open,ENG,chat,-0.48,False,technical_sub
+TKT-00417,2024-01-24 09:07:00,2024-01-25 15:16:29,technical,medium,resolved,ENG,portal,-0.1,False,billing_sub
+TKT-00418,2024-01-24 08:42:00,,billing,medium,open,OPS,phone,-0.73,True,billing_sub
+TKT-00419,2024-01-24 12:58:00,2024-01-25 06:08:16,access_request,medium,resolved,SALES,portal,0.71,False,billing_sub
+TKT-00420,2024-01-24 11:21:00,2024-01-26 11:18:33,technical,low,closed,OPS,phone,0.09,False,onboarding_sub
+TKT-00421,2024-01-24 18:04:00,2024-01-27 04:14:02,onboarding,low,resolved,SUPPORT,email,-0.57,False,billing_sub
+TKT-00422,2024-01-24 08:36:00,2024-01-26 03:03:55,billing,low,resolved,ENG,email,-0.77,False,access_request_sub
+TKT-00423,2024-01-24 18:24:00,2024-01-24 22:28:48,billing,critical,closed,SALES,phone,-0.25,False,access_request_sub
+TKT-00424,2024-01-24 10:29:00,2024-01-25 00:05:17,onboarding,medium,resolved,OPS,chat,0.8,False,onboarding_sub
+TKT-00425,2024-01-24 14:51:00,2024-01-24 16:19:05,data_quality,high,closed,OPS,chat,-0.6,False,billing_sub
+TKT-00426,2024-01-25 14:29:00,,access_request,medium,open,SALES,chat,-0.22,False,access_request_sub
+TKT-00427,2024-01-25 16:13:00,2024-01-28 21:27:49,data_quality,low,resolved,SUPPORT,chat,0.08,False,access_request_sub
+TKT-00428,2024-01-25 12:13:00,2024-01-26 05:40:29,onboarding,medium,closed,SALES,email,-0.48,False,billing_sub
+TKT-00429,2024-01-25 16:27:00,2024-01-26 08:57:15,access_request,medium,resolved,OPS,phone,0.77,False,billing_sub
+TKT-00430,2024-01-25 17:50:00,,billing,medium,open,SALES,phone,-0.05,False,billing_sub
+TKT-00431,2024-01-25 15:20:00,2024-01-26 00:43:50,technical,high,resolved,ENG,email,-0.77,False,technical_sub
+TKT-00432,2024-01-25 09:20:00,,onboarding,medium,open,OPS,portal,0.73,False,technical_sub
+TKT-00433,2024-01-25 13:37:00,,access_request,medium,open,SALES,phone,0.33,False,technical_sub
+TKT-00434,2024-01-25 10:57:00,,billing,high,open,SALES,email,0.05,False,billing_sub
+TKT-00435,2024-01-25 18:30:00,2024-01-26 05:20:35,technical,medium,resolved,OPS,chat,-0.64,True,access_request_sub
+TKT-00436,2024-01-25 15:10:00,,data_quality,medium,open,SUPPORT,chat,0.14,False,technical_sub
+TKT-00437,2024-01-25 18:36:00,2024-01-25 21:17:55,onboarding,critical,resolved,ENG,portal,-0.58,False,access_request_sub
+TKT-00438,2024-01-25 09:59:00,,billing,critical,open,SUPPORT,phone,0.34,False,technical_sub
+TKT-00439,2024-01-25 15:01:00,2024-01-26 12:40:40,onboarding,medium,resolved,SUPPORT,portal,0.02,False,technical_sub
+TKT-00440,2024-01-25 10:03:00,2024-01-26 11:34:04,access_request,medium,closed,SALES,phone,-0.74,False,access_request_sub
+TKT-00441,2024-01-25 13:35:00,2024-01-26 21:06:17,data_quality,medium,resolved,ENG,phone,-0.19,False,access_request_sub
+TKT-00442,2024-01-25 18:17:00,2024-01-26 07:01:49,access_request,medium,closed,SUPPORT,portal,0.71,False,data_quality_sub
+TKT-00443,2024-01-25 12:17:00,2024-01-27 13:25:11,onboarding,low,resolved,ENG,email,0.5,False,technical_sub
+TKT-00444,2024-01-26 13:04:00,2024-01-30 03:49:21,technical,low,resolved,ENG,email,0.38,False,data_quality_sub
+TKT-00445,2024-01-26 17:40:00,,access_request,low,open,SUPPORT,email,0.18,False,billing_sub
+TKT-00446,2024-01-26 09:11:00,2024-01-30 15:58:56,access_request,low,resolved,OPS,portal,-0.72,False,onboarding_sub
+TKT-00447,2024-01-26 11:30:00,,access_request,medium,open,OPS,chat,-0.34,False,technical_sub
+TKT-00448,2024-01-26 16:00:00,2024-01-28 03:05:47,billing,medium,closed,OPS,email,0.32,False,billing_sub
+TKT-00449,2024-01-26 11:10:00,2024-01-26 21:21:47,data_quality,high,closed,SALES,phone,-0.45,False,onboarding_sub
+TKT-00450,2024-01-26 16:00:00,2024-01-27 03:38:58,onboarding,high,closed,OPS,email,-0.7,False,technical_sub
+TKT-00451,2024-01-26 14:05:00,2024-01-27 22:32:08,technical,medium,closed,ENG,phone,0.14,False,onboarding_sub
+TKT-00452,2024-01-26 17:43:00,,data_quality,medium,open,SUPPORT,phone,-0.08,False,access_request_sub
+TKT-00453,2024-01-26 12:48:00,2024-01-27 08:54:25,billing,medium,resolved,OPS,email,0.31,False,access_request_sub
+TKT-00454,2024-01-26 14:29:00,,access_request,medium,open,SALES,portal,-0.57,False,access_request_sub
+TKT-00455,2024-01-26 10:50:00,2024-01-26 16:46:55,access_request,critical,resolved,SUPPORT,email,-0.1,False,billing_sub
+TKT-00456,2024-01-26 10:13:00,2024-01-28 05:05:05,onboarding,low,resolved,SUPPORT,portal,-0.77,False,onboarding_sub
+TKT-00457,2024-01-26 16:17:00,2024-01-26 22:38:06,access_request,high,closed,SALES,portal,-0.02,False,onboarding_sub
+TKT-00458,2024-01-26 09:20:00,,data_quality,critical,open,SUPPORT,portal,-0.42,False,billing_sub
+TKT-00459,2024-01-27 12:40:00,2024-01-28 11:43:57,data_quality,medium,closed,ENG,portal,0.05,False,onboarding_sub
+TKT-00460,2024-01-27 10:23:00,2024-01-27 16:35:31,access_request,high,resolved,SUPPORT,chat,-0.41,False,billing_sub
+TKT-00461,2024-01-27 13:40:00,,access_request,critical,open,SUPPORT,phone,0.12,False,billing_sub
+TKT-00462,2024-01-27 13:50:00,2024-01-27 19:41:20,data_quality,critical,resolved,OPS,portal,-0.02,False,technical_sub
+TKT-00463,2024-01-27 09:24:00,,data_quality,medium,open,SUPPORT,email,0.05,False,onboarding_sub
+TKT-00464,2024-01-27 14:49:00,2024-01-31 02:12:03,onboarding,low,resolved,ENG,chat,-0.41,False,onboarding_sub
+TKT-00465,2024-01-27 17:30:00,2024-01-28 21:55:44,access_request,medium,closed,SUPPORT,portal,0.52,False,data_quality_sub
+TKT-00466,2024-01-27 12:46:00,2024-01-28 20:44:01,billing,medium,closed,SALES,chat,0.32,False,onboarding_sub
+TKT-00467,2024-01-27 10:18:00,2024-01-30 09:01:29,technical,low,closed,SUPPORT,chat,0.44,False,access_request_sub
+TKT-00468,2024-01-27 16:10:00,2024-01-28 19:42:46,onboarding,medium,resolved,SALES,phone,-0.48,False,onboarding_sub
+TKT-00469,2024-01-27 10:20:00,,technical,low,open,ENG,phone,0.08,False,onboarding_sub
+TKT-00470,2024-01-27 14:35:00,2024-01-27 20:21:36,access_request,high,closed,OPS,phone,0.18,False,onboarding_sub
+TKT-00471,2024-01-27 17:02:00,,technical,medium,open,OPS,chat,-0.7,False,billing_sub
+TKT-00472,2024-01-27 10:45:00,2024-01-30 20:29:54,onboarding,low,closed,ENG,chat,-0.25,False,access_request_sub
+TKT-00473,2024-01-27 16:26:00,2024-01-28 07:17:34,data_quality,medium,resolved,ENG,portal,-0.08,False,onboarding_sub
+TKT-00474,2024-01-27 08:41:00,2024-01-27 12:16:31,access_request,low,resolved,ENG,email,-0.45,False,billing_sub
+TKT-00475,2024-01-27 10:32:00,2024-01-27 13:28:15,technical,critical,closed,SUPPORT,chat,-0.76,False,access_request_sub
+TKT-00476,2024-01-27 08:12:00,2024-01-27 16:30:33,technical,medium,closed,SUPPORT,email,0.13,False,billing_sub
+TKT-00477,2024-01-28 16:00:00,,data_quality,low,open,SUPPORT,phone,0.09,False,billing_sub
+TKT-00478,2024-01-28 17:16:00,2024-01-28 21:51:51,access_request,high,closed,ENG,phone,-0.08,False,data_quality_sub
+TKT-00479,2024-01-28 11:11:00,2024-01-28 16:26:43,billing,high,resolved,OPS,phone,0.53,False,data_quality_sub
+TKT-00480,2024-01-28 13:29:00,2024-01-28 21:22:14,billing,high,closed,ENG,phone,-0.78,False,onboarding_sub
+TKT-00481,2024-01-28 14:46:00,2024-02-02 01:04:45,access_request,low,resolved,SALES,phone,0.47,False,billing_sub
+TKT-00482,2024-01-28 09:56:00,2024-01-28 14:16:18,technical,low,resolved,SUPPORT,email,-0.31,False,data_quality_sub
+TKT-00483,2024-01-28 09:03:00,2024-01-28 13:16:43,onboarding,critical,closed,ENG,phone,-0.13,True,technical_sub
+TKT-00484,2024-01-28 12:09:00,2024-01-28 23:22:52,technical,high,resolved,ENG,chat,-0.52,False,billing_sub
+TKT-00485,2024-01-28 17:44:00,2024-01-29 04:11:08,technical,medium,closed,OPS,portal,-0.7,False,technical_sub
+TKT-00486,2024-01-28 14:53:00,2024-01-29 10:36:38,data_quality,low,resolved,ENG,email,0.74,False,onboarding_sub
+TKT-00487,2024-01-28 11:51:00,2024-01-28 20:14:01,billing,high,resolved,SALES,email,0.79,True,data_quality_sub
+TKT-00488,2024-01-28 14:35:00,,access_request,high,open,OPS,email,-0.34,False,onboarding_sub
+TKT-00489,2024-01-28 15:34:00,2024-01-29 15:37:03,data_quality,medium,closed,OPS,phone,0.38,False,billing_sub
+TKT-00490,2024-01-28 13:29:00,,onboarding,medium,open,OPS,chat,0.28,False,access_request_sub
+TKT-00491,2024-01-28 12:56:00,2024-02-01 16:52:41,access_request,low,closed,OPS,email,-0.25,False,billing_sub
+TKT-00492,2024-01-28 16:40:00,,billing,medium,open,OPS,portal,0.52,False,access_request_sub
+TKT-00493,2024-01-28 16:34:00,2024-01-28 18:42:31,onboarding,high,resolved,OPS,portal,0.29,False,access_request_sub
+TKT-00494,2024-01-28 13:35:00,,data_quality,low,open,SALES,portal,0.12,False,technical_sub
+TKT-00495,2024-01-29 15:09:00,,billing,medium,open,ENG,email,-0.01,False,onboarding_sub
+TKT-00496,2024-01-29 14:19:00,,data_quality,low,open,ENG,portal,-0.76,True,technical_sub
+TKT-00497,2024-01-29 18:04:00,2024-01-31 19:29:41,access_request,low,resolved,SUPPORT,chat,-0.78,False,onboarding_sub
+TKT-00498,2024-01-29 11:19:00,2024-01-30 08:57:21,data_quality,medium,closed,ENG,chat,0.76,False,onboarding_sub
+TKT-00499,2024-01-29 15:55:00,,data_quality,low,open,ENG,chat,0.3,False,onboarding_sub
+TKT-00500,2024-01-29 18:31:00,,access_request,critical,open,ENG,chat,0.41,False,onboarding_sub
+TKT-00501,2024-01-29 09:15:00,,technical,medium,open,SALES,chat,0.4,False,access_request_sub
+TKT-00502,2024-01-29 12:35:00,,access_request,low,open,OPS,chat,-0.65,False,data_quality_sub
+TKT-00503,2024-01-29 08:59:00,2024-01-29 10:44:36,access_request,high,resolved,SUPPORT,chat,0.48,False,technical_sub
+TKT-00504,2024-01-29 09:44:00,2024-01-30 05:20:33,onboarding,low,closed,OPS,email,-0.34,False,technical_sub
+TKT-00505,2024-01-29 09:12:00,2024-01-29 18:54:59,billing,medium,closed,SALES,email,-0.32,False,data_quality_sub
+TKT-00506,2024-01-29 11:45:00,2024-01-29 20:27:30,technical,high,resolved,OPS,portal,-0.59,False,data_quality_sub
+TKT-00507,2024-01-29 15:31:00,2024-01-30 16:58:44,data_quality,medium,resolved,SUPPORT,email,-0.13,True,access_request_sub
+TKT-00508,2024-01-29 14:04:00,2024-01-30 00:15:49,access_request,medium,closed,SALES,portal,0.65,False,technical_sub
+TKT-00509,2024-01-29 09:36:00,2024-01-30 07:37:38,data_quality,low,closed,SUPPORT,chat,-0.69,False,billing_sub
+TKT-00510,2024-01-30 16:02:00,2024-01-30 22:11:30,access_request,medium,resolved,ENG,phone,-0.7,False,technical_sub
+TKT-00511,2024-01-30 12:37:00,2024-01-31 00:14:01,onboarding,medium,resolved,OPS,chat,0.48,False,access_request_sub
+TKT-00512,2024-01-30 11:06:00,2024-01-31 07:27:22,billing,medium,resolved,OPS,portal,0.58,False,data_quality_sub
+TKT-00513,2024-01-30 09:36:00,2024-01-30 13:44:04,onboarding,critical,closed,OPS,phone,-0.15,False,technical_sub
+TKT-00514,2024-01-30 14:01:00,2024-01-30 23:00:29,access_request,high,closed,SALES,portal,0.4,False,data_quality_sub
+TKT-00515,2024-01-30 16:56:00,2024-01-30 22:17:33,billing,critical,resolved,SUPPORT,chat,0.44,False,technical_sub
+TKT-00516,2024-01-30 16:05:00,,billing,medium,open,ENG,phone,-0.36,False,onboarding_sub
+TKT-00517,2024-01-30 16:38:00,2024-01-31 04:25:05,data_quality,medium,closed,SALES,chat,0.41,False,data_quality_sub
+TKT-00518,2024-01-30 18:38:00,2024-01-31 23:08:12,access_request,medium,resolved,SUPPORT,email,0.31,False,data_quality_sub
+TKT-00519,2024-01-30 18:04:00,2024-01-31 04:27:14,onboarding,medium,closed,OPS,phone,0.68,False,billing_sub
+TKT-00520,2024-01-30 13:19:00,2024-01-31 02:02:29,onboarding,medium,closed,SUPPORT,chat,0.27,False,data_quality_sub
+TKT-00521,2024-01-30 10:51:00,,onboarding,high,open,OPS,phone,0.34,False,billing_sub
+TKT-00522,2024-01-30 17:33:00,2024-01-31 02:31:13,billing,high,closed,OPS,phone,-0.51,False,access_request_sub
+TKT-00523,2024-01-30 14:30:00,,data_quality,medium,open,SALES,phone,-0.57,False,onboarding_sub
+TKT-00524,2024-01-30 14:52:00,2024-02-01 09:55:34,billing,low,resolved,SUPPORT,chat,-0.07,False,data_quality_sub
+TKT-00525,2024-01-30 16:36:00,2024-01-30 20:31:21,access_request,high,closed,ENG,chat,-0.1,False,billing_sub
+TKT-00526,2024-01-30 13:48:00,,technical,low,open,ENG,email,-0.36,False,onboarding_sub
+TKT-00527,2024-01-30 09:59:00,,access_request,low,open,OPS,email,0.63,False,technical_sub
+TKT-00528,2024-01-30 17:46:00,2024-02-01 16:45:19,billing,low,resolved,SUPPORT,phone,0.55,False,data_quality_sub
+TKT-00529,2024-01-30 11:10:00,,access_request,medium,open,OPS,email,0.73,False,data_quality_sub
+TKT-00530,2024-01-30 12:51:00,2024-01-30 14:19:42,billing,critical,closed,OPS,chat,0.18,False,billing_sub

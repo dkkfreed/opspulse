@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=DM+Sans:wght@300;400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-primary: #0a0b0f;
+  --bg-secondary: #111318;
+  --bg-card: #13151c;
+  --bg-elevated: #1a1d27;
+  --bg-border: #252836;
+  --accent-cyan: #00d4ff;
+  --accent-amber: #ffb340;
+  --accent-red: #ff4757;
+  --accent-green: #00e676;
+  --accent-purple: #b085ff;
+  --text-primary: #e8eaf0;
+  --text-secondary: #8b91a8;
+  --text-muted: #4a5068;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: "DM Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 5px; height: 5px; }
+::-webkit-scrollbar-track { background: var(--bg-secondary); }
+::-webkit-scrollbar-thumb { background: var(--bg-border); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: var(--text-muted); }
+
+/* Recharts */
+.recharts-tooltip-wrapper { outline: none !important; }
+.recharts-text { fill: var(--text-secondary) !important; font-family: "IBM Plex Mono", monospace !important; font-size: 11px !important; }
+.recharts-cartesian-grid line { stroke: var(--bg-border) !important; }
+.recharts-cartesian-axis-line { stroke: var(--bg-border) !important; }
+
+@keyframes scanline {
+  0% { transform: translateY(-100%); }
+  100% { transform: translateY(100vh); }
+}
+.scanline {
+  position: fixed; top: 0; left: 0; right: 0; height: 2px;
+  background: linear-gradient(transparent, var(--accent-cyan), transparent);
+  opacity: 0.03; animation: scanline 8s linear infinite; pointer-events: none; z-index: 9999;
+}

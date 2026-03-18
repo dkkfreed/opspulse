@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.venv/
+venv/
+.env
+*.db
+
+# Node
+node_modules/
+.next/
+out/
+dist/
+.env.local
+
+# Docker
+postgres_data/
+
+# IDE
+.vscode/
+.idea/
+*.DS_Store
+
+# Test artifacts
+.pytest_cache/
+.coverage
+htmlcov/
