@@ -1,9 +1,5 @@
 from datetime import date, datetime
-from typing import Optional
 from sqlalchemy.orm import Session
-from sqlalchemy import func, and_
-from app.models.facts import FactOperations, FactTicket
-from app.models.dimensions import DimDate
 import logging
 
 logger = logging.getLogger(__name__)

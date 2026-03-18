@@ -1,6 +1,5 @@
 """Forecasting API endpoints."""
 from __future__ import annotations
-from datetime import date, timedelta
 from typing import Any
 from fastapi import APIRouter, Depends, Query
 from sqlalchemy import text

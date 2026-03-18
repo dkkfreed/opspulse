@@ -5,9 +5,8 @@ Run with: python -m app.seed.seed_data
 import random
 import logging
 from datetime import date, datetime, timedelta
-from sqlalchemy.orm import Session
 from app.database import SessionLocal, create_tables
-from app.models.dimensions import DimDepartment, DimLocation, DimEmployee, DimDate
+from app.models.dimensions import DimDepartment, DimLocation, DimEmployee
 from app.models.facts import FactOperations, FactTicket, FactMarketSignal
 from app.etl.loader import upsert_dim_date
 import numpy as np

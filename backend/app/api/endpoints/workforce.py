@@ -1,11 +1,9 @@
-from fastapi import APIRouter, Depends, Query, HTTPException
+from fastapi import APIRouter, Depends, Query
 from sqlalchemy.orm import Session
-from sqlalchemy import func, and_, text
+from sqlalchemy import text
 from datetime import date, timedelta
-from typing import Optional, List
+from typing import Optional
 from app.database import get_db
-from app.models.facts import FactOperations
-from app.models.dimensions import DimDate, DimDepartment
 
 router = APIRouter(prefix="/workforce", tags=["workforce"])
 

@@ -11,7 +11,7 @@ from datetime import datetime
 from typing import Literal
 
 import pandas as pd
-from fastapi import APIRouter, Depends, File, HTTPException, Query, UploadFile, status
+from fastapi import APIRouter, Depends, File, HTTPException, Query, UploadFile
 from sqlalchemy import text
 from sqlalchemy.ext.asyncio import AsyncSession
 
@@ -61,7 +61,7 @@ async def upload_csv(
 
         if val_result.quarantine_rate > settings.QUARANTINE_THRESHOLD and val_result.valid_rows == 0:
             run.status = "failed"
-            run.error_message = f"100% quarantine rate — aborting. Check schema."
+            run.error_message = "100% quarantine rate — aborting. Check schema."
             run.completed_at = datetime.utcnow()
             await db.flush()
             raise HTTPException(status_code=422, detail=run.error_message)

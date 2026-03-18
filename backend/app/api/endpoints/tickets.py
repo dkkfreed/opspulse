@@ -1,7 +1,7 @@
-from fastapi import APIRouter, Depends, Query, HTTPException
+from fastapi import APIRouter, Depends, Query
 from sqlalchemy.orm import Session
 from sqlalchemy import text
-from datetime import date, timedelta, datetime
+from datetime import date, timedelta
 from typing import Optional
 from app.database import get_db
 

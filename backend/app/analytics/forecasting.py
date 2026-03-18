@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 from datetime import date, timedelta
-from typing import Optional, List, Dict
+from typing import List, Dict
 from sklearn.linear_model import Ridge
 from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import mean_absolute_error, mean_squared_error

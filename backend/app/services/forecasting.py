@@ -6,10 +6,9 @@ Uses exponential smoothing (Holt-Winters) with fallback to linear trend.
 from __future__ import annotations
 
 from dataclasses import dataclass
-from typing import Any
 import numpy as np
 import pandas as pd
-from datetime import date, timedelta
+from datetime import timedelta
 
 
 @dataclass
