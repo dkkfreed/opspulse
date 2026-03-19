@@ -348,24 +348,6 @@ Seed script generates **90 days** of richer synthetic data with an intentional a
 - Built **role-based dashboards** (analyst, lead, executive) exposing workforce utilization heatmaps, SLA breach tracking, staffing gap analysis, and a plain-English narrative summary generator.
 - Added **automated testing** (pytest, 3 suites) covering ETL logic, analytics correctness, and API endpoints; shipped **Docker Compose** configuration and **GitHub Actions CI** pipeline.
 
----
-
-## Interview Demo Script
-
-> "OpsPulse is an operations intelligence platform I built to replicate the kind of internal analytics tool a data or analytics team would own. Let me walk you through it quickly.
-
-> Starting on the **Overview page** — this is the analyst's daily dashboard. It pulls workforce utilization and ticket volume for the last 30 days. The AI Narrative card at the top automatically generates a plain-English summary from computed SQL metrics — things like 'support demand rose 34% period-over-period while staffing rose only 6%'.
-
-> On the **Workforce page**, there's a utilization heatmap — each cell is a department × day combination, colour-coded by utilization rate. Red means over-capacity, green is optimal. The staffing gaps table shows days where demand exceeded capacity by more than 5%.
-
-> On the **Forecasting page**, I used Ridge regression with cyclic time features — sin/cos encoding for day-of-week and month — to produce a 30-day forecast with a 95% confidence band. You can switch between ticket volume, demand units, and utilization rate.
-
-> On the **Anomalies page** — I seeded a deliberate spike in the Support department around days 35–42. The Z-score detector surfaces that automatically and shows the inferred likely cause.
-
-> Under the hood: Python FastAPI with a proper star-schema PostgreSQL data warehouse, a Pandas-based ETL layer that validates, deduplicates, and quarantines bad rows, and three pytest suites covering the ETL logic, analytics correctness, and all API endpoints. Everything runs in Docker with a one-command seed."
-
----
-
 ## Tech Stack
 
 | Layer | Technology |
